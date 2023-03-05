@@ -1,0 +1,470 @@
+html{
+    overflow-x: hidden;
+    background-color: #FFFAE1;
+    scroll-behavior: smooth;
+    font-family: cambria;
+    list-style-type: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fond1{
+    background-image: url("images/fond.png");
+    background-size: cover;
+    height: 750px;
+}
+.fond4{
+    background-image: url("images/top1.jpeg");
+    background-size: cover;
+    height: 750px;
+}
+
+.fond2{
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+.fond2 h1{
+    padding: 50px;
+    font-family: "Alegreya SC"
+}
+
+.fond2 h1::before {
+    content: '';
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #e91e63;
+}
+
+.fond2 p{
+    padding-left: 80px;
+    padding-right :10px;
+    padding-bottom: 200px;
+}
+
+article h1{
+    padding: 50px;
+    padding-left: 80px;
+    font-family: "Alegreya SC"
+}
+
+article p{
+    padding-left: 50px;
+}
+#cote{
+    padding-left: 10px;
+}
+.fond3{
+    background-image: url("images/top1.jpeg");
+    background-size: cover;
+    height: 750px;
+}
+
+.boutique{
+    border-radius: 10px;
+    border-style: solid;
+    margin: 30px;
+}
+
+.boutique:hover{
+    transform: scale(105%);
+    transition: scale 0.3s;
+}
+
+.butonPanier:hover{
+    filter: brightness(70%);
+    transition: filter 0.3s;
+    cursor: grabbing;
+    color: white;
+}
+
+
+article h3{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+article p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+article h2{
+    text-align: center;
+    padding-top: 5px;
+}
+article h4{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 1.3em;
+}
+
+.panier{
+    margin-left: 12px;
+}
+
+
+#panier{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    background-color: darkseagreen;
+    color: black;
+    border-radius: 50px 50px;
+    padding: 4px;
+    margin-right: 20px;
+    height: 30px;
+    border: none;
+}
+
+.index{
+    font-size: 1.2em;
+}
+
+.index2{
+    font-size: 1.5em;
+}
+/*background-color: #FFFAE1;*/
+
+
+
+/*------------TITRE DE LA PAGE----------------- */
+
+/*h2 de la page*/
+.titreContact {
+    padding-top: 20px; /*espace avec le haut*/
+    color: black;
+    padding-left: 30px; /*decaler a droite*/
+}
+
+/* surligner le titre */
+.surlignementTitre {
+    border-bottom: 3px solid red;
+    width: 10%;
+    margin-left: 30px;
+}
+
+/*------------FORMULAIRE----------------- */
+
+/*div formulaire*/
+.formulaireContact {
+    background-color: #FFFAE1;
+    font-size: 1.2em;
+}
+
+.fieldset fieldset {
+    border: solid 1px red; /*creer une border autour de la section*/
+    padding: 1em; /*ne pas etre coller a la bordure*/
+    margin-bottom: 20px; /*espace avec les boutons*/
+}
+
+/*titre des sections*/
+legend {
+    color: #097981;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 1.6em;
+}
+
+/*------------ELEMENT FORMULAIRE----------------- */
+
+/*element obligatoire*/
+.red {
+    color: red;
+}
+
+/*------------SECTION GAUCHE ----------------- */
+
+.sectionGauche {
+    margin-left: 135px; /* decaler le formulaire */
+}
+
+/* cases du formulaire*/
+.sectionGauche input {
+    padding: 15px; /*agrandir cases*/
+    width: 300px; /*largeur des cases*/
+    margin-bottom: 20px; /*marge avec les label*/
+}
+
+/*nom des cases*/
+.sectionGauche label {
+    display: block; /*pour qu'il soit en bas du input*/
+    height: 2em; /*espace haut avec label*/
+}
+
+/*------------SECTION DROITE ----------------- */
+
+/*zone de texte*/
+.sectionDroite textarea {
+    display: block;
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*menu deroulant */
+.sectionDroite select {
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sectionDroite input {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.textarea {
+    margin-top: 19px;
+}
+/*------------BOUTON BAS DU FORMULAIRE----------------- */
+
+/*bouton annuler et envoyer*/
+.butonForm input[type=submit], input[type=reset] {
+    border: solid 4px #A6BEDE;
+    border-radius: 2px;
+    color: white;
+    width: 10em;
+    height: 3em;
+    margin-right: 0.7em; /*espace entre les 2*/
+}
+
+/*bouton envoyer*/
+.greenButon input{
+    background-color: #097981;
+}
+
+/*bouton annuler */
+.redButon input{
+    background-color: red;
+}
+
+/*gerer les 2 boutons*/
+.butonForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*chechbox*/
+.conditionsUtilisation {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+/*------------TITRE DE LA PAGE----------------- */
+
+/*h2 de la page*/
+.titrePanier {
+    padding-top: 20px; /*espace avec le haut*/
+    color: black;
+    padding-left: 30px; /*decaler a droite*/
+}
+
+/* surligner le titre */
+.surlignementTitre {
+    border-bottom: 3px solid red;
+    width: 9%;
+    margin-left: 30px;
+}
+
+/*------------TABLEAU----------------- */
+
+
+/* ligne et colonne */
+table {
+    padding: 35px; /*espacer le tableau */
+    font-size: 1.5em;
+}
+th,td{
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+td h4,h3,p{
+    padding-bottom: 10px;
+}
+.prix{
+    padding-right: 850px;
+}
+
+.titredupanier{
+    width: 400px;
+}
+/*bas de tableau */
+.trait{
+    border-left: red 2px solid;
+    height: 100px;
+}
+
+.centre{
+    text-align: center;
+}
+
+
+/*------------COULEUR LIGNE DU TABLEAU----------------- */
+
+.ligne1 {
+    background-color: #0dcaf0;
+}
+
+.ligne2 {
+    background-color: #f3f3f3;
+}
+
+.ligne3 {
+    background-color: lightcoral;
+}
+
+.ligne4 {
+    background-color: lightgreen;
+}
+
+/*------------BOUTON----------------- */
+
+/*centrer le bouton*/
+.centerButon {
+    text-align: center;
+    padding: 30px; /*espace avec le tableau*/
+}
+
+/*Interieur du bouton*/
+.centerButon input {
+    padding: 30px; /*agrandir le bouton*/
+    margin: 20px; /*espace entre bouton*/
+    color: white;
+    font-size: 1.5em;
+}
+
+/*bouton annuler*/
+input[type=reset] {
+    background-color: red;
+}
+
+/*bouton valider*/
+input[type=submit] {
+    background-color: green;
+}
+
+/*survol des boutons*/
+input[type=submit]:hover, input[type=reset]:hover {
+    filter: brightness(150%); /*luminositÃŠ vu en tp*/
+    transition: filter 1s;
+}
+
+#centre{
+    padding-left: 80px;
+}
+
+/*-----------------------------IMAGE DEROULANTE--------------------------*/
+
+
+.slider-1{
+    overflow: hidden;
+    height: 750px;
+}
+.slider-1 .slider{
+    animation: slider-1 10s infinite ease-in-out;
+    display: flex;
+}
+
+.slider-1 img{
+    flex-shrink: 0;
+    width: 100%;
+}
+
+@keyframes slider-1 {
+    0%,20%{
+        transform: translateX(0);
+    }
+    25%,45%{
+        transform: translateX(-100%);
+    }
+    50%,70%{
+        transform: translateX(-200%);
+    }
+    75%,95%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+}
+
+article p{
+    font-size: 0.8em;
+}
+
+.get{
+    margin-left: 80px;
+    padding: 20px;
+
+}
+
+.titreget{
+    margin-bottom: 20px;
+}
+
+/*----------------CONNEXION ---------------*/
+
+#connexionFieldset{
+    width: 30%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+#connexionFieldset legend{
+    font-size: 1.2em;
+    padding: 10px;
+    color: blue;
+}
+
+#connexionFieldset label{
+    color: red;
+    padding: 5px;
+    margin-left: 16px;
+}
+#connexionFieldset input{
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#butonEnvoyer{
+    background-color: forestgreen;
+    color: white;
+}
+
+#butonAnnuler{
+    background-color: red;
+    color: white;
+}
+
+#butonConnexion{
+    text-align: center;
+}
+
+#butonConnexion input{
+    margin-right: 5px;
+}
+
+#login input{
+    margin-left: 70px;
+}
+
+/* Pour le formulaire */
+
+.vide{
+    height: 100px;
+}
+
+.formulaire{
+    border: solid black 1px;
+    margin: 50px;
+    font-size: 1.2em;
+}

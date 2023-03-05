@@ -1,0 +1,48 @@
+
+.connexionFieldset {
+    width: 30%;
+    display: inline;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.connexionFieldset legend {
+    font-size: 1.2em;
+    padding: 10px;
+    color: blue;
+}
+
+.connexionFieldset label {
+    color: red;
+    padding: 5px;
+    margin-left: 16px;
+}
+
+.connexionFieldset input {
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.butonEnvoyer {
+    background-color: forestgreen;
+    color: white;
+}
+
+.butonAnnuler {
+    background-color: red;
+    color: white;
+}
+
+.butonConnexion {
+    text-align: center;
+}
+
+.butonConnexion input {
+    margin-right: 5px;
+}
+
+.login_ input {
+    margin-left: 70px;
+}
+
